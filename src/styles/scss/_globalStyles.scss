@@ -3,6 +3,9 @@
 @import "_variable";
 
 // Global styles example:
-body {
-    font-family: $global-fon;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: $global-font;
 }
