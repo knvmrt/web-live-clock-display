@@ -1,0 +1,195 @@
+// // Home page styles: 
+#pm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: $bg-primary-pm;
+
+    .date {
+        .date-info {
+            filter: drop-shadow(-4px -2px 9px #0e1622c7);
+
+            h2 {
+                font-weight: bold;
+                color: $txt-primary-pm;
+            }
+        }
+    }
+
+    .oclock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .clock-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .clock-date {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .text-center {
+                    text-align: center;
+                    font-weight: bold;
+                    filter: drop-shadow(-8px -2px 10px #0e1622c7);
+
+                    h1 {
+                        font-size: 8rem;
+                        font-weight: bold;
+                        color: $txt-primary-pm;
+                    }
+
+                    .text-sub {
+                        font-size: 1.3rem;
+                        font-weight: bold;
+                        color: $txt-sub-pm;
+                    }
+                }
+
+                .dot {
+                    font-size: 8rem;
+                    font-weight: bold;
+                    color: $txt-primary-pm;
+                    margin-bottom: 55px;
+                }
+            }
+
+            .clock-ampm {
+                h3 {
+                    margin: 0px;
+                    color: $txt-sub-pm;
+                    font-weight: bold;
+                }
+
+            }
+        }
+    }
+
+    .sun-moon-icon {
+        #sun-moon-icon {
+            height: 400px;
+            position: absolute;
+            left: 400px;
+            top: 120px;
+            animation: moon 25s linear infinite;
+            transition: transform 1s ease-in-out;
+        }
+
+        @keyframes moon {
+            0% {
+                transform: rotate(0deg);
+                filter: drop-shadow(0px 0px 200px $moon-shadow);
+
+            }
+
+            100% {
+                transform: rotate(360deg);
+                filter: drop-shadow(0px 0px 250px $moon-shadow);
+
+            }
+        }
+    }
+}
+
+// PM - AM ========================
+
+#am {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: $bg-primary-am;
+
+    .date {
+        .date-info {
+            filter: drop-shadow(-4px -2px 9px #221d0e81);
+
+            h2 {
+                font-weight: bold;
+                color: $txt-primary-am;
+            }
+        }
+    }
+
+    .oclock {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .clock-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .clock-date {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .text-center {
+                    text-align: center;
+                    font-weight: bold;
+                    filter: drop-shadow(-8px -2px 10px #221d0e81);
+
+                    h1 {
+                        font-size: 8rem;
+                        font-weight: bold;
+                        color: $txt-primary-am;
+                    }
+
+                    .text-sub {
+                        font-size: 1.3rem;
+                        font-weight: bold;
+                        color: $txt-sub-am;
+                    }
+                }
+
+                .dot {
+                    font-size: 8rem;
+                    font-weight: bold;
+                    color: $txt-primary-am;
+                    margin-bottom: 55px;
+                }
+            }
+
+            .clock-ampm {
+                h3 {
+                    margin: 0px;
+                    color: $txt-sub-am;
+                    font-weight: bold;
+                }
+
+            }
+        }
+    }
+
+    .sun-moon-icon {
+        #sun-moon-icon {
+            height: 400px;
+            position: absolute;
+            left: 400px;
+            top: 120px;
+            animation: sun 25s linear infinite;
+            transition: transform 1s ease-in-out;
+        }
+
+        @keyframes sun {
+            0% {
+                transform: rotate(0deg);
+                filter: drop-shadow(0px 0px 200px $sun-shadow);
+            }
+
+            100% {
+                transform: rotate(360deg);
+                filter: drop-shadow(0px 0px 250px $sun-shadow);
+            }
+        }
+    }
+
+}

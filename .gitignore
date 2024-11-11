@@ -1,0 +1,5 @@
+# MYNOTES Ignores the file.
+MYNOTES.md
+
+# If you are using SASS, committing CSS files to github is unnecessary.
+src/styles/css/

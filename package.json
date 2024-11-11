@@ -1,0 +1,11 @@
+{
+  "name": "project-name",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "c-scss": "sass --watch src/styles/scss/main.scss:src/styles/css/main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.x.x"
+  }
+}
