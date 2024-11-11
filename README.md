@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/Pd4IVru.jpeg" alt="Resim" width="100%"/>
+
 ## 🌐 Sosial Medias:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedIn&logoColor=white)](https://linkedin.com/in/knvmrt)
