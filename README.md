@@ -60,3 +60,9 @@ npm install     # It finds the packages you use in the project and creates packa
 npm run c-scss   # SCSS compilation
 
 ```
+
+## © Creative Commons Attribution-NonCommercial 4.0 Iernational License
+
+### This work is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The full text of the license can be found at [this link](https://creativecommons.org/licenses/by-nc/4.0/).
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc.svg)
